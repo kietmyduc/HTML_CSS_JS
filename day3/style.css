@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 50%;
+    max-width: 100vh;
+}
+.main-right{
+    display: flex;
+   // background-color: cadetblue;
+    width: 50%;
+}
+.main-left h3{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.main-left p {
+    padding: 2px;
+    font-size: 20px;
+}

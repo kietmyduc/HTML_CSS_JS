@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="h1">JavaScript Loan Calculator</h1>
+<div class="main">
+<section class="main-left">
+ <h3>Enter loan Data: </h3>
+    <p>Amount of the loan ($): <input id="amount" type="text"></p>
+    <p>Annual interest (%): <input id="interest" type="text"></p>
+    <p>Repayment period (year): <input id="years" type="text"></p>
+    <p>Approximate Payments <button id="calculator" type="button">Calculator</button></p>
+    <p class="output" id="payment">Monthly payment: $</p>
+    <p class="output" id="total">Total payment: $</p>
+    <p class="output" id="totalInterest">Total interest: $</p>
+    <span>Sponsors: <p>Apply for your loan with one of these fine lenders:
+        <p id="lenders"></p></p></span>
+</section>
+<section class="main-right"></section>
+</div>
+<script src="app.js"> </script>
+</body>
+</html>
